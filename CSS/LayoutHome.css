@@ -1,0 +1,60 @@
+body {
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.common {
+    background-color: #b0e1f3;
+    position: absolute
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom:0%;
+
+}
+
+a {
+    color: #00117d;
+    
+}
+
+.mainbody {
+    background-color: whitesmoke;
+    top: 114px;
+    left: 114px;
+    right: 5px;
+    bottom: 39px;
+   
+}
+
+.bottomtext{
+    position: fixed; /* Fixed positioning */
+    bottom: 20px; /* Adjust as needed */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 50px;
+}
+
+
+.RT{
+    top: 100px !important;
+    /* transform:translateX(-50%); */
+}

@@ -1,0 +1,62 @@
+body{
+    background-color:aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+    color: #00117d;
+}
+
+.common {
+    background-color: #b0e1f3;
+    position: absolute
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom:0%;
+
+}
+
+.tableau{
+    top: 85px;
+    bottom: 3%  !important;
+    left: 35px  !important;
+   
+}
+
+.mainbody {
+    background-color: whitesmoke;
+    top: 114px;
+    left: 114px;
+    right: 5px;
+    bottom: 39px;
+    display: flex;
+    /* Use Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.goto{
+    position: fixed; /* Fixed positioning */
+    bottom: 20px  !important; /* Adjust as needed */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+iframe{
+    right: 50px;
+    top: 10000px;
+    
+}
